@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- sass ./assets/scss/style.scss ./assets/css/style.css --watch -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="container">
+        <audio id="audio" src=""></audio>
+        <div class="dashboard">
+           <div id="list" class="list">
+
+            </div>
+
+        <div class="player">
+            <div class="player-info">
+                <div class="player-img">
+                    <img src="./assets/images/img-1.jpg" alt="">
+                </div>
+                <div class="player-name">
+                    <h3>Name</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+            <div class="player-icon">
+                <span id="previous_list"><i class="fas fa-step-backward"></i></span>
+                <div id="play_list" class="fas fa-play"></div>
+                <span id="next_list"><i class="fas fa-step-forward"></i></span>
+            </div>
+        </div>
+   
+        </div>
+
+        <div class="main hide">
+           <span id="closeplayer"><i class="fas fa-times"></i></i></span>
+                <div class="banner">
+                    <img src="./assets/images/img-1.jpg" alt="">
+                    <h3>Name</h3>
+                    <p>Description</p>
+                </div>
+                <div class="process">
+                   <div class="process-time">
+                        <span id="currenttime">00:00</span>
+                        <span class="proress-icon"><i class="fas fa-heart"></i></span>
+                        <span id="endtime">2:00</span>
+                   </div>
+                   
+                   <div class="process-area">
+                       <div class="process-bar">
+                           <span></span>
+                       </div>
+                   </div>
+                </div>
+
+                <div class="playermusic">
+                    <div class="playermusic-icon">
+                        <div class="random"><i class="fas fa-random"></i></div>
+                        <span id="previous"><i class="fas fa-step-backward"></i></span>
+                        <div id="play-music" class="fas fa-play"></div>
+                        <span id="next" ><i class="fas fa-step-forward"></i></span>
+                        <div class="undo"><i class="fas fa-undo"></i></div>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+
+
+   
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
